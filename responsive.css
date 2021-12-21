@@ -130,5 +130,57 @@
     .put {
       text-decoration: none;
     }
+    .insta {
+      border-radius: 100px;
+      height: 50px;
+      width: 50px;
+      padding-left: 25px;
+      padding-right: 25px;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      
+    }
+    .mail {
+      border-radius: 100px;
+      height: 50px;
+      width: 50px;
+      padding-left: 25px;
+      padding-right: 25px;
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+    .INSTAGRAM {
+      text-decoration: none;
+      color:white;
+      background-color:magenta;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 10px;
+      padding-left: 10px;
+      border-radius: 10px;
+  
+    }
+    .INSTAGRAM:hover {
+      opacity: 0.5;
+  }
+  .MAIL {
+      text-decoration: none;
+      color:white;
+      background-color:cornflowerblue;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 10px;
+      padding-left: 10px;
+      border-radius: 10px;
+  }
+  .MAIL:hover {
+    opacity: 0.5;
+  }
+  .about {
+    padding-top: 50px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 20px;
+  }
 }
 
