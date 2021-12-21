@@ -1,7 +1,7 @@
 // アニメーションさせたいクラス
 var container = $(".demoTxt");
 // アニメーションスピード
-var speed = 300;
+var speed = 200;
 
 // テキストの間にスペースを入れます
 var content = container.html();
