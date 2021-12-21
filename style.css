@@ -405,7 +405,7 @@ width /***/:auto;
     position: relative;
     opacity: 0.1;
     transition: 1s;
-    transform: rotate(45deg);
+    transform: rotate(100deg);
   }
   
   .isAnimate {
