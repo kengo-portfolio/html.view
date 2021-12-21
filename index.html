@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+    <header class="big-header">
+        <abbr title="ここを押すとホームへ飛びます" class="put"><a href="#home" class="link">ホーム</a></abbr>
+        <abbr title="ここを押すと自己紹介へ飛びます"class="put"><a href="#name" class="link">自己紹介</a></abbr>
+        <abbr title="ここを押すとスキルへ飛びます"class="put"><a href="#skill" class="link">スキル</a></abbr>
+        <abbr title="ここを押すと作品集へ飛びます"class="put"><a href="#work" class="link">今までの作品集</a></abbr>
+        <abbr title="ここを押すと学習方法へ飛びます"class="put"><a href="#learn" class="link">学習方法</a></abbr>
+        <abbr title="ここを押すと連絡先へ飛びます"class="put"><a href="#contact" class="link">連絡先</a></abbr>
+    </header>
+    <header>
+        <div class="hamburger-menu">
+            <input type="checkbox" id="menu-btn-check">
+            <label for="menu-btn-check" class="menu-btn"><span></span></label>
+            <!--ここからメニュー-->
+            <div class="menu-content">
+                <ul>
+                    <li>
+                        <a href="#home">ホーム</a>
+                    </li>
+                    <li>
+                        <a href="#name">自己紹介</a>
+                    </li>
+                    <li>
+                        <a href="#skill">スキル</a>
+                    </li>
+                    <li>
+                        <a href="#work">今までの作品集</a>
+                    </li>
+                    <li>
+                        <a href="#learn">学習方法</a>
+                    </li>
+                    <li>
+                        <a href="#contact">連絡先</a>
+                    </li>
+                </ul>
+            </div>
+            <!--ここまでメニュー-->
+        </div>
+    </header>   
+
+    
+        
+    <div class="container-video" id="home">
+        <div class="table-center">
+          <div>
+            <p class="demoTxt">
+                welcome to my portfolio.
+            </p>
+            <a href="#contact" class="go">contact me</a>
+          </div>
+        </div>
+        <video id="video" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+          <source src="mixkit-stars-in-space-1610.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="elem">
+        <div class="name" id="name">
+            <h1 id="back">profile</h1>
+             <h2 id="front">自己紹介</h2>
+              <p class="about">こんにちは。<br>
+                升成健心と言います。<br>
+                千葉県在住の2021年現在大学二年生です。<br>
+                この今のポートフォリオレベルのホームページを制作できます。<br>
+              </p>
+        </div>
+    </div>
+    <div class="elem">
+        <img src="background.jpg">
+    </div>
+    <div class="elem">
+        <div class="skill" id="skill" >
+            <h1 id="back">skill</h1>
+            <h2 id="front">skill</h2>
+            <img src="html.css.jpg"><br>
+            <p class="detail">HTMLでwebサイトやホームページの全体を構成してCSSを使ってwebサイトを装飾します。その後<br>
+            JavaScriptとjQueryを使って動きをつけることもできます。</p>
+            <img src="sarch.jpg" class="sarch">
+            <p class="detail">何か不明なことがあれば自分で検索して調べて解決します。<br>
+            エンジニアは７割が検索力です。デザインセンス。コーディング力も大事ですが、検索力は一番大事なスキルです。</p>
+            <div class="continue" >
+            <div class="yet">学習中..</div>
+            <img src="php.jpg" class="php">
+            <p class="detail">phpを使って様々な機能の実装や開発をします。<br></p>
+            <img src="wordpress.jpg" class="wordpress">
+            <p class="detail">wordpressというツールを使ってwebサイトやホームページを制作します。<br></p>
+            </div>
+        </div>
+    </div>
+    <div class="elem">
+        <div class="work" id="work">
+            <h1 id="back">work</h1>
+            <h2 id="front">今までの作品集</h2>
+            <div class="detail">ここに今まで作った作品を入れる</div>
+        </div>
+    </div>
+    <div class="elem">
+        <div class="learn" id="learn">
+            <h1 id="back">learn</h1>
+            <h2 id="front">学習方法</h2>
+            <p class="detail">UdemyでHTMLとCSSとjQueryとPHPとWordPressを学びました。<br>
+               動画コンテンツを見ながら真似して実装する形式で学習するコンテンツです。<br>
+               今現在もPHPとWordPressはこのサイトの動画を見ながら学習を進めています。</p>
+               <abbr title="ここを押すとUdemy公式サイトに飛びます" class="put"><a href="https://www.udemy.com/?utm_source=adwords-brand&utm_medium=udemyads&utm_campaign=Brand-Udemy_la.JA_cc.JP&utm_term=_._ag_103751308239_._ad_451175836549_._de_m_._dm__._pl__._ti_kwd-412339082616_._li_9053302_._pd__._&utm_term=_._pd__._kw_udemy%20cpom_._&matchtype=e&gclid=CjwKCAiA78aNBhAlEiwA7B76p9XiMftdAFKFKaWxrOTguuI9O1k2d4vPIxIius-hIZ5LsG_y63qS1RoCUhAQAvD_BwE" class="botan">私が実際に学んだUdemy公式サイトはこちら</a></abbr>
+            <img src="Udemy-icon.jpg" class="photo">
+        </div>
+    </div>
+    <div class="elem">
+        <div class="contact" id="contact">
+            <h1 id="back">contact</h1>
+                    <h2 id="front">連絡先</h2>
+            <p class="acount">SNSアカウント</p>
+            <div class="center">
+              <img src="instagram-icon.jpg" class="insta"  class="vertical">
+              <abbr title="ここを押すとインスタのアカウントへ飛びます" class="put"><a href="https://www.instagram.com/html_css_cording_ken_blog/" class="INSTAGRAM">Instagramのアカウント</a></abbr>
+            </div>
+            <div class="center">
+              <img src="mail-icon.jpg" class="mail" class="vertical">
+              <abbr title="ここを押すとメールへ飛びます" class="put"><a href="mailto:kengo050812@icloud.com" class="MAIL">メールアドレスへ</a></abbr>
+            </div>
+        </div>
+    </div>
+        <footer>
+            <div class="copyright">©2021 Masunari Kengo</div>
+        </footer>
+      
+          <script type="text/javascript" src="script.js"></script>
+        
+</body>
+</html>
